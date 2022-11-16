@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 770px;
+}
+
+.mid {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.item {
+    float: left;
+    width: 370px;
+    height: 411px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.item_mid {
+    float: left;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.left_column {
+    margin-right: 30px;
+}
+
+.bottom_column {
+    margin-bottom: 0px;
+}
+
+.photo {
+    height: 280px;
+}
+
+.photo_mid {
+    height: 349px;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    margin-top: 15px;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #c9a96e;
+}
+
+.main_txt {
+    text-align: center;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #171717;
+    margin-left: 43px;
+    margin-bottom: 10px;
+    margin-right: 42px;
+}
+
+.under_txt {
+    text-align: center;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    margin: 0px 102px 14px 102px;
+}
+
+span {
+    color: #B1B1B1;
+    margin-left: 5px;
+}
+
+.comment{
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    margin-left: 5px;
+}
+
+.title_mid {
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #c9a96e;
+}
+
+.main_txt_mid {
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #171717;
+    margin-left: 30px;
+    margin-bottom: 12px;
+}
+
+.under_txt_mid {
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    margin-bottom: 14px;
+    margin-left: 30px;
+}
+
+.bottom_txt {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+
+.main::after {
+    content: '';
+    display: block;
+    clear: both;
+}
